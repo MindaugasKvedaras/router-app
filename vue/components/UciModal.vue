@@ -77,7 +77,6 @@ export default {
 
   methods: {
     onChange (event) {
-      console.log(event.model)
       if (event.model === 'dhcp') {
         this.$uci.set(this.configFile, this.sectionId, 'address', '')
         this.$uci.set(this.configFile, this.sectionId, 'netmask', '')

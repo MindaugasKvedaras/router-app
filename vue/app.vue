@@ -54,11 +54,10 @@
 </template>
 
 <script>
-import VuciTypedSection from '../components/VuciForm/src/VuciTypedSection.vue'
 import UciModal from './components/UciModal.vue'
 
 export default {
-  components: { UciModal, VuciTypedSection },
+  components: { UciModal},
   props: {
     loaded: Boolean
   },

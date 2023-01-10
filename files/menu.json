@@ -3,7 +3,7 @@
 		"title": "Example",
 		"index": 90
 	},
-	"examples/vuci_components_task": {
+	"examples/components": {
 		"title": "Components",
 		"view": "vuci-app-components-task",
 		"index": 10
