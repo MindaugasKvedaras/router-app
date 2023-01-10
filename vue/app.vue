@@ -33,6 +33,9 @@
           </a-space>
         </template>
       </vuci-typed-section>
+      <template #footer>
+        <div></div>
+      </template>
     </vuci-form>
     <a-space>
       Interface name
