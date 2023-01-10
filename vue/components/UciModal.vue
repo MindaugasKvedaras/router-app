@@ -73,7 +73,6 @@ export default {
     configFile: String,
     sectionId: String,
     sectionName: String,
-    sectionAddress: Number
   },
 
   methods: {
